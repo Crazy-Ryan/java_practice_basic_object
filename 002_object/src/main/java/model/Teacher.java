@@ -33,4 +33,12 @@ public class Teacher {
         }
         System.out.println("====================");
     }
+
+    public Teacher() {
+    }
+
+    public Teacher(String name, ArrayList<Student> studentList) {
+        this.name = name;
+        this.studentList = studentList;
+    }
 }
