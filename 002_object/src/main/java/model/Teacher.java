@@ -22,7 +22,7 @@ public class Teacher {
         this.studentList = studentList;
     }
 
-    public void addToStudent(Student newStudent) {
+    public void addNewStudent(Student newStudent) {
         this.studentList.add(newStudent);
     }
 
