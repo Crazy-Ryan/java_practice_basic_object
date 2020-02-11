@@ -28,7 +28,7 @@ public class Teacher {
 
     public void showAllStudent() {
         System.out.println("====管理的学生名单====");
-        for (Student student: studentList){
+        for (Student student : studentList) {
             System.out.println(student.getName());
         }
         System.out.println("====================");
