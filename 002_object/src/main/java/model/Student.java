@@ -1,9 +1,9 @@
 package model;
 
 public class Student {
-    String name;
-    int age;
-    String sex;
+    private String name;
+    private int age;
+    private String sex;
 
     public void study(){
         System.out.println("I am studying. Don't bother me");
