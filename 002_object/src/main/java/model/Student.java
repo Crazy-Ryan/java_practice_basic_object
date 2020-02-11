@@ -5,11 +5,11 @@ public class Student {
     private int age;
     private String sex;
 
-    public void study(){
+    public void study() {
         System.out.println("I am studying. Don't bother me");
     }
 
-    public void rest(){
+    public void rest() {
         System.out.println("I am taking a rest.");
     }
 
